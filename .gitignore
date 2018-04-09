@@ -24,3 +24,10 @@ hs_err_pid*
 /.classpath
 /.project
 /.settings/
+/README.md
+/build.gradle
+/gradle/
+/gradlew
+/gradlew.bat
+/settings.gradle
+/src/
