@@ -49,7 +49,8 @@ public class TimeRecorder {
 	}
 	
 	public void computeTotals() {
-			
+		weekHours = new int [hours.length];
+		
 		for(WeekDays currentDay:WeekDays.values()) {
 			
 			dayHours[currentDay.ordinal()] = 0;
@@ -57,7 +58,8 @@ public class TimeRecorder {
 			for(int employeeCount=0; employeeCount < hours.length; employeeCount++) {	
 				dayHours[currentDay.ordinal()] = dayHours[currentDay.ordinal()] 
 															+ hours[employeeCount][currentDay.ordinal()];
-				
+				weekHours[employeeCount] = weekHours[employeeCount] 
+													+ hours[employeeCount][currentDay.ordinal()];
 			}
 		}
 	}
