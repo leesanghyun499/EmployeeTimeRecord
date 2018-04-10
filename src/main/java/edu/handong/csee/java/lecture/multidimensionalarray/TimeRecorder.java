@@ -16,9 +16,9 @@ public class TimeRecorder {
 		
 		myTimeRecoder.getData();		//Call the method getData
 		
-		myTimeRecoder.computeTotals();	//Call the method getData	
+		myTimeRecoder.computeTotals();	//Call the method computeTotals
 		
-		myTimeRecoder.printResults();	//Call the method getData
+		myTimeRecoder.printResults();	//Call the method printResults
 
 	}
 	
